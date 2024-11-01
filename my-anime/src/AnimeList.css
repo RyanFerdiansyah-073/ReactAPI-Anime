@@ -1,0 +1,57 @@
+/* src/AnimeList.css */
+body {
+    background-color: #121212;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid; 
+    place-items: center;
+    min-height: 100vh; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #f8f9fa;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    padding: 20px; 
+}
+
+table {
+    width: 100%; 
+    margin: 20px; 
+    border-collapse: collapse; 
+    background-color: #1f1f1f; 
+    border-radius: 8px; 
+}
+
+th, td {
+    padding: 15px; 
+    text-align: left; 
+    border: 1px solid #444; 
+}
+
+th {
+    background-color: #333; 
+    color: #f8f9fa; 
+}
+
+td {
+    color: #b0bec5; 
+}
+
+img {
+    border-radius: 8px;
+    width: 100px;
+    height: auto; 
+}
